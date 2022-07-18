@@ -1,4 +1,4 @@
-from setuptools import setup
+from setuptools import setup, find_packages
 
 
 setup(name='loni-api',
@@ -14,8 +14,11 @@ setup(name='loni-api',
       author='Hieu Do',
       author_email='hieu.do@sagebionetworks.org',
       license='MIT',
-      packages=['loni-api'],
+      packages= find_packages(include=['loni-api', 'loni-api.*']),
       install_requires=[
-          'requests', 'configparser', 'os', 'pandas'
+          'requests', 
+          'configparser', 
+          'os', 
+          'pandas'
       ],
       zip_safe=False)
