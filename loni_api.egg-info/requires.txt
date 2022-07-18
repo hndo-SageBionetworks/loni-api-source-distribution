@@ -1,0 +1,5 @@
+requests
+configparser
+os
+pandas
+mimetypes
