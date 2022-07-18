@@ -19,6 +19,7 @@ setup(name='loni-api',
           'requests', 
           'configparser', 
           'os', 
-          'pandas'
+          'pandas',
+          'numpy'
       ],
       zip_safe=False)
