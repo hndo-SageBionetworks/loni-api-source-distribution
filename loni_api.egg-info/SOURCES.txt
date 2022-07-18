@@ -1,6 +1,8 @@
 setup.py
 loni-api/LoniAPI.py
 loni-api/__init__.py
+loni-api/tests/__init__.py
+loni-api/tests/test_loni_api.py
 loni_api.egg-info/PKG-INFO
 loni_api.egg-info/SOURCES.txt
 loni_api.egg-info/dependency_links.txt
