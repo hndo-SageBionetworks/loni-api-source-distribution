@@ -2,4 +2,3 @@ requests
 configparser
 os
 pandas
-numpy

@@ -20,6 +20,5 @@ setup(name='loni-api',
           'configparser', 
           'os', 
           'pandas',
-          'numpy'
       ],
       zip_safe=False)
