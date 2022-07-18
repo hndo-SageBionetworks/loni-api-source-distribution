@@ -1,7 +1,7 @@
 from setuptools import setup, find_packages
 
 
-setup(name='loni-api',
+setup(name='loniapi',
       version='0.1',
       description='Package to make calls to the LONI API',
       classifiers=[
@@ -14,7 +14,7 @@ setup(name='loni-api',
       author='Hieu Do',
       author_email='hieu.do@sagebionetworks.org',
       license='MIT',
-      packages= find_packages(include=['loni-api', 'loni-api.*']),
+      packages= find_packages(include=['loniapi', 'loniapi.*']),
       install_requires=[
           'requests',
       ],
