@@ -16,6 +16,6 @@ setup(name='loniapi',
       license='MIT',
       packages= find_packages(include=['loniapi', 'loniapi.*']),
       install_requires=[
-          'requests',
+          'requests', 'configparser', 'os', 'pandas'
       ],
       zip_safe=False)
