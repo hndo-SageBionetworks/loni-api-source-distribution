@@ -17,9 +17,22 @@ cd loniapi-0.1
 ```bash
 python3 setup.py install
 ```
-5. Install pandas if it is not already installed
+5. Install pandas if it is not already installed. and requests. or upgrade
 ```bash
 pip3 install pandas
+```
+
+6. Create a config file in your home directory
+```bash
+cd ~
+vim .loniApiConfig
+```
+
+7. Specify your group-id and loni log-in credentials
+```bash
+[<your-group-id>]
+email = <your-email>
+password = <your-password
 ```
 
 ## Usage
